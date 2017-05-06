@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+ <modelVersion>4.0.0</modelVersion>
+  <groupId>com.google.code.guice</groupId>
+  <artifactId>guice</artifactId>
+  <version>3.0-r1291</version>
+  <description>POM was created from install:install-file</description>
+  <!-- Note: this pom is for dependency management only.  It will not build the project -->
+  <dependencies>
+    <!-- CGLib is not listed because it has been repackaged with JarJar -->
+    <dependency>
+      <groupId>aopalliance</groupId>
+      <artifactId>aopalliance</artifactId>
+      <version>1.0</version> 
+    </dependency>
+
+    <!-- Not optional, even in pure-Guice, no JSR 330 applications:
+    javax.inject.Provider is referenced in Guice code. -->
+    <dependency>
+      <groupId>javax.inject</groupId>
+      <artifactId>javax.inject</artifactId>
+      <version>1</version>
+    </dependency>
+  </dependencies>
+</project>

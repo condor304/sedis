@@ -1,0 +1,22 @@
+04 Nov 2009 23:48:18,127 INFO  ~ Starting /opt/local/lib/play-1.1-unstable-r647/modules/guice/test/guice_using_custom_injector
+04 Nov 2009 23:48:18,138 INFO  ~ Module scala is available (/opt/local/lib/play-1.1-unstable-r647/modules/guice)
+04 Nov 2009 23:48:18,142 INFO  ~ Module test-runner is available (/opt/local/lib/play-1.1-unstable-r647/modules/test-runner)
+04 Nov 2009 23:48:18,286 INFO  ~ 
+04 Nov 2009 23:48:18,287 INFO  ~ Go to http://localhost:9000/@tests to run the tests
+04 Nov 2009 23:48:18,287 INFO  ~ 
+04 Nov 2009 23:48:18,287 WARN  ~ You're running Play! in DEV mode
+04 Nov 2009 23:48:18,423 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+04 Nov 2009 23:48:25,191 INFO  ~ Connected to jdbc:hsqldb:mem:playembed
+04 Nov 2009 23:48:25,425 INFO  ~ Guice injector was found: utils.GuicyDummy
+04 Nov 2009 23:48:25,516 INFO  ~ Application 't' is now started !
+04 Nov 2009 23:48:25,524 INFO  ~ guice in jobs:yay!
+04 Nov 2009 23:48:31,304 INFO  ~ sending a test email:yay!
+04 Nov 2009 23:48:31,407 INFO  ~ From Mock Mailer
+	New email received by, testsomething@hotmail.com
+	From: user@localhost
+	ReplyTo: user@localhost
+	Subject: Welcome yay!
+	Attachments: 0
+	Body(text/html): guice test
+
+
